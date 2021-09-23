@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8" lang="fr">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex;">
+        <div class="image_tamagochi" style="position: relative;">
+            <img id="pikachu" src="image/pikachu.png" style="height: 200px">
+            <p id="pika_blabla"></p>
+        </div>
+        <div>
+            <p>Satiété</p>
+                <div class="stat_container">
+                    <div class="stats" id="stat_1">100%</div>
+                    <button class="interact" id="feed">Nourrir le pet</button>
+                    <div  class="bar_display" id="feed_bar_display"></div>
+                </div>
+
+            <p>Fatigue</p>
+            <div class="stat_container">
+                    <div class="stats" id="stat_2">100%</div>
+                    <button class="interact" id="sleep">dodo</button>
+                    <div class="bar_display"  id="sleep_bar_display"></div>
+            </div>
+
+            <p>Divertissement</p>
+
+            <div class="stat_container">
+                    <div class="stats" id="stat_3" >100%</div>
+                    <button class="interact" id="play">jouer avec le pet</button>
+                    <div  class="bar_display"  id="interactive_bar_display"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script type="text/javascript" src="tamagochi.js"></script>
+</body>
+</html>
